@@ -1,12 +1,17 @@
 import axios from 'axios';
 import Constants from 'expo-constants';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Platform } from 'react-native';
 
-// Production API URL (Render deployment)
+// API URLs
+const LOCAL_API = 'http://localhost:5000/api';
 const PRODUCTION_API = 'https://splittheexpenses.onrender.com/api';
 
-// Always use production API (local development has network issues)
+// Use local API on web (PC), production API on mobile devices
 const getBaseUrl = () => {
+    if (Platform.OS === 'web') {
+        return LOCAL_API;
+    }
     return PRODUCTION_API;
 };
 

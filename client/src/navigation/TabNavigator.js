@@ -45,12 +45,9 @@ function HomeStackNavigator() {
                 options={{
                     headerTitle: () => (
                         <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                            <Image
-                                source={require('../../assets/splash.jpg')}
-                                style={{ width: 32, height: 32, borderRadius: 6, marginRight: 8 }}
-                            />
-                            <Text style={{ color: '#fff', fontSize: 18, fontWeight: 'bold' }}>
-                                SplitExpenses
+                            <Icon source="cash-multiple" size={26} color="#fff" />
+                            <Text style={{ color: '#fff', fontSize: 18, fontWeight: 'bold', marginLeft: 8 }}>
+                                Hisaab
                             </Text>
                         </View>
                     ),

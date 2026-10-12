@@ -1,16 +1,17 @@
 {
-  "name": "server",
+  "name": "hisaab-server",
   "version": "1.0.0",
-  "description": "SplitTheExpenses API Server",
+  "description": "Hisaab API Server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "engines": {
     "node": ">=18.0.0"
   },
   "keywords": [],
-  "author": "",
+  "author": "mohityadav55199",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
