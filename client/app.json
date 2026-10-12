@@ -18,12 +18,7 @@
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.mohityadav55199.hisaab",
-      "permissions": [
-        "android.permission.INTERNET",
-        "android.permission.ACCESS_NETWORK_STATE"
-      ]
+      "package": "com.mohityadav55199.hisaab"
     },
     "web": {
       "bundler": "metro"
