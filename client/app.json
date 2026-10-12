@@ -27,6 +27,12 @@
     },
     "web": {
       "bundler": "metro"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "831ac455-1c22-4cba-bf80-befd10ec8757"
+      }
+    },
+    "owner": "mohityadav55199"
   }
 }
